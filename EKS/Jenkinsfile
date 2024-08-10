@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout SCM'){
             steps{
                 script{
-                     git 'https://github.com/Sharuqmd/CICD-Terraform-EKS.git' 
+                     git 'https://github.com/Sharuqmd/CICD-Terraform-EKS.git'
                 }
             }
         }
